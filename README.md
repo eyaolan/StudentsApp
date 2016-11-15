@@ -1,1 +1,1 @@
-eyaolan app
+eyaolan ruby app
