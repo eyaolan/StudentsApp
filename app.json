@@ -7,8 +7,6 @@
     "ruby",
     "sinatra"
   ],
-  "logo": "https://i.imgur.com/PEkdHpr.png",
-  "success_url": "/instructions",
   "env": {
     "SESSION_SECRET": {
       "description": "Random string used to secure the session cookie.",
