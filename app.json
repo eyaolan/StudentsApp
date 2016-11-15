@@ -1,5 +1,5 @@
 {
-  "name": "BigCommerce Sample App, Ruby",
+  "name": "Eyaolan app, Ruby",
   "description": "This app does one little thing, and does it well.",
   "keywords": [
     "bigcommerce",
@@ -7,7 +7,6 @@
     "ruby",
     "sinatra"
   ],
-  "repository": "https://github.com/bigcommerce/hello-world-app-ruby-sinatra",
   "logo": "https://i.imgur.com/PEkdHpr.png",
   "success_url": "/instructions",
   "env": {
