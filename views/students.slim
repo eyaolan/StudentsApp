@@ -1,0 +1,12 @@
+h1 Students
+
+
+a href="/student/new" Add a new Student
+- if @student.any?
+  ul#students
+    -@student.each do |student|
+      li <a href="/student/#{student.id}">#{student.name}</a>
+- else
+  p No student have been added yet!
+
+==slim :logout

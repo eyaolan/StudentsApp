@@ -1,0 +1,9 @@
+h1= @student.name
+p Major: #{@student.major}
+p Birthday: #{@student.birthday.strftime("%e %B %Y") if @student.birthday}
+
+p <a href="/student">back to students index</a>
+p <a href="/student/#{@student.id}/edit">edit this student</a>
+form action="/student/#{@student.id}" method="POST"
+  input type="hidden" name="_method" value="DELETE"
+  input type="submit" value="delete this student"

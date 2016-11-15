@@ -1,0 +1,9 @@
+label for="name" Name:
+input#name type="text" name="student[name]" value="#{@student.name}"
+label for="major" Major:
+input#major type="text" name="student[major]" value="#{@student.major}"
+label for="birthday" Birthday(mm/dd/yyyy):
+input#birthday type="text" name="student[birthday]" value="#{@student.birthday.strftime("%m/%d/%Y") if @student.birthday}"
+/!label for="lyrics" Lyrics:
+/!textarea#lyrics name="song[lyrics]" == @song.lyrics
+input type="submit" value="Save Student"
